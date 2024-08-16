@@ -6,6 +6,9 @@ import { Pressable } from 'react-native';
 import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+
+
 
 // You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
 function TabBarIcon(props: {
@@ -29,8 +32,10 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Home',
+          tabBarIcon:({ color, size})=>(
+            <MaterialCommunityIcons name= 'home' color= {color} size={size}/>
+          ),
           headerRight: () => (
             <Link href="/modal" asChild>
               <Pressable>
@@ -50,10 +55,28 @@ export default function TabLayout() {
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          title: 'Libros',
+          tabBarIcon: ({ color }) => <TabBarIcon name="book" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="categoria"
+        options={{
+          title: 'Categoria',
+          tabBarIcon: ({ color,size}) =>(
+            <MaterialCommunityIcons name='menu' color={color} size={size}/>
+          )
+        }}
+        />
+        <Tabs.Screen
+        name="usuario"
+        options={{
+          tabBarLabel:'Usuario',
+          tabBarIcon:({ color, size})=>(
+            <MaterialCommunityIcons name= 'map' color= {color} size={size}/>
+          )
+        }}
+        />
     </Tabs>
   );
 }

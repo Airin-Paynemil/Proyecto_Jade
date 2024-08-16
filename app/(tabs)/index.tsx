@@ -1,31 +1,59 @@
-import { StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { View, StyleSheet, Alert, FlatList, Text } from 'react-native';
+import ButtonCustom from '@/components/boton';
+import SearchBar from '@/components/SearchBar';
 
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
+const App: React.FC = () => {
+  const [filteredData, setFilteredData] = useState(data);
 
-export default function TabOneScreen() {
+  const handlePress = () => {
+    Alert.alert('Botón presionado!');
+  };
+
+  const handleSearch = (query: string) => {
+    if (query) {
+      const filtered = data.filter(item =>
+        item.name.toLowerCase().includes(query.toLowerCase())
+      );
+      setFilteredData(filtered);
+    } else {
+      setFilteredData(data);
+    }
+  };
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
+      {/* Descomentar la línea a continuación si quieres usar el botón */}
+      {/* <ButtonCustom title="Me gusta" onPress={handlePress} /> */}
+      <SearchBar onSearch={handleSearch} />
+      <FlatList
+        data={filteredData}
+        keyExtractor={item => item.id.toString()}
+        renderItem={({ item }) => <Text style={styles.item}>{item.name}</Text>}
+      />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#ECECEC',
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
+  item: {
+    padding: 10,
+    fontSize: 18,
   },
 });
+
+const data = [
+  { id: 1, name: 'Atraves de mi ventana' },
+  { id: 2, name: 'a dos metro de ti' },
+  { id: 3, name: 'bajo la misma estrella' },
+  { id: 4, name: 'culpa mia' },
+  { id: 5, name: 'culpa de nosotros' },
+];
+
+export default App;
