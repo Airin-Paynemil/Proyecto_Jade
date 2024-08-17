@@ -8,7 +8,7 @@ import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import SearchBar from '@/components/SearchBar'; // Importa el componente de barra de búsqueda
 
-const iconColor = '#ecd4ea'; // Define el color deseado para los iconos
+const iconColor = '#a987a8'; // Define el color deseado para los iconos
 const pressedColor = '#511f52'; // Color para el icono cuando se presiona
 
 function TabBarIcon(props: {
@@ -106,3 +106,4 @@ export default function TabLayout() {
     </Tabs>
   );
 }
+
