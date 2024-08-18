@@ -3,13 +3,15 @@ import { StyleSheet } from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 import Login from '@/components/login';
+// src/index.js
 
 
-export default function TabTwoScreen() {
+
+export default function TabOneScreen() {
   return (
     <View style={styles.container}>
 
-      
+     <Login/>
     </View>
     
   );
