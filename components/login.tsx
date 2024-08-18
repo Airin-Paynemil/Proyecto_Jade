@@ -35,7 +35,7 @@ export default function Login() {
         value={password}
         onChangeText={setPassword}
       />
-      <Button title="Login" color='#754b73'  onPress={onSubmit} />
+      <Button title="iniciar sesion" color='#754b73'  onPress={onSubmit} />
     </View>
   );
 }

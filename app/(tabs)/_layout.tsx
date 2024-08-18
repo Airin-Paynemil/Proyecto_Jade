@@ -1,13 +1,16 @@
 import React from 'react';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { Link, Tabs } from 'expo-router';
-import { Pressable } from 'react-native';
+import { Tabs } from 'expo-router';
+import { Pressable, View, StyleSheet } from 'react-native';
 
-import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import SearchBar from '@/components/SearchBar'; // Importa el componente de barra de búsqueda
 
-// You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
+const iconColor = '#a987a8'; // Define el color deseado para los iconos
+const pressedColor = '#511f52'; // Color para el icono cuando se presiona
+
 function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
   color: string;
@@ -18,42 +21,89 @@ function TabBarIcon(props: {
 export default function TabLayout() {
   const colorScheme = useColorScheme();
 
+  const handleSearch = (query: string) => {
+    // Aquí puedes manejar la lógica de búsqueda
+    console.log('Buscando:', query);
+  };
+
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        // Disable the static render of the header on web
-        // to prevent a hydration error in React Navigation v6.
-        headerShown: useClientOnlyValue(false, true),
-      }}>
+        tabBarActiveTintColor: iconColor, // Usa el color definido para el icono activo
+        tabBarInactiveTintColor: iconColor, // Usa el color definido para el icono inactivo
+        headerShown: useClientOnlyValue(true, true),
+        header: () => (
+          <View style={{ padding: 10 }}>
+            <SearchBar onSearch={handleSearch} />
+          </View>
+        ),
+        tabBarShowLabel: false, // Oculta las etiquetas de texto de los botones
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Tab One',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
-          headerRight: () => (
-            <Link href="/modal" asChild>
-              <Pressable>
-                {({ pressed }) => (
-                  <FontAwesome
-                    name="info-circle"
-                    size={25}
-                    color={Colors[colorScheme ?? 'light'].text}
-                    style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }}
-                  />
-                )}
-              </Pressable>
-            </Link>
+          tabBarIcon: ({ size }) => (
+            <Pressable>
+              {({ pressed }) => (
+                <MaterialCommunityIcons
+                  name="home"
+                  color={pressed ? pressedColor : iconColor}
+                  size={size}
+                />
+              )}
+            </Pressable>
           ),
         }}
       />
       <Tabs.Screen
         name="two"
         options={{
-          title: 'Tab Two',
-          tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+          tabBarIcon: ({ size }) => (
+            <Pressable>
+              {({ pressed }) => (
+                <TabBarIcon
+                  name="book"
+                  color={pressed ? pressedColor : iconColor}
+                />
+              )}
+            </Pressable>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="categoria"
+        options={{
+          tabBarIcon: ({ size }) => (
+            <Pressable>
+              {({ pressed }) => (
+                <MaterialCommunityIcons
+                  name="menu"
+                  color={pressed ? pressedColor : iconColor}
+                  size={size}
+                />
+              )}
+            </Pressable>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="usuario"
+        options={{
+          tabBarIcon: ({ size }) => (
+            <Pressable>
+              {({ pressed }) => (
+                <MaterialCommunityIcons
+                  name="map"
+                  color={pressed ? pressedColor : iconColor}
+                  size={size}
+                />
+              )}
+            </Pressable>
+          ),
         }}
       />
     </Tabs>
   );
 }
+
