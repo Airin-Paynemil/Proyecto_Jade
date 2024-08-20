@@ -1,8 +1,8 @@
-import { StyleSheet, Button, TouchableHighlight} from 'react-native';
+import { StyleSheet, TouchableHighlight} from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
-
+//pantalla de biblioteca
 export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
@@ -38,16 +38,18 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   barraContainer:{
-    backgroundColor: "rgba(89, 17, 81,0.8)",
     flexDirection:"row",
     width: '100%',
     justifyContent:"space-around",
+ 
     },
   barra:{
+    backgroundColor: "rgba(89, 17, 81,0.8)",
+    alignContent: 'center',
+    padding: 10,
+    textAlign: 'center',
     fontSize: 15,
     fontWeight: 'bold',
-    width: 100,
-    flexBasis:'auto',
-    paddingVertical :10,
+    width: 200,
   }
 });
