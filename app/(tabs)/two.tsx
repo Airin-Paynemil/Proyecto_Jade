@@ -1,3 +1,4 @@
+
 import { StyleSheet, TouchableHighlight} from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
@@ -16,6 +17,8 @@ export default function TabTwoScreen() {
           <Text style={styles.barra}>Me Gusta</Text>
         </TouchableHighlight>
       </View>
+      <EditScreenInfo path="app/(tabs)/two.tsx" />
+ 
     </View>
   );
 }
@@ -25,7 +28,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-start',
-    backgroundColor: 'ECECEC',
+    backgroundColor: '#ECECEC', 
     paddingTop: 20,
   },
   title: {
@@ -37,11 +40,10 @@ const styles = StyleSheet.create({
     height: 1,
     textAlign: 'center',
   },
-  barraContainer:{
+    barraContainer:{
     flexDirection:"row",
     width: '100%',
     justifyContent:"space-around",
- 
     },
   barra:{
     backgroundColor: "rgba(89, 17, 81,0.8)",
