@@ -33,4 +33,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 129fb629f627918d6fad343b35763ec5fc2408de
