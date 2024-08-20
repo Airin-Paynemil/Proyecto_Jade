@@ -45,7 +45,7 @@ export default function Registrar() {
         value={password}
         onChangeText={setPassword}
       />
-      <Button title="iniciar sesion" color='#754b73'  onPress={onSubmit} />
+      <Button title="Registrarse" color='#754b73'  onPress={onSubmit} />
     </View>
   );
 }
