@@ -1,7 +1,7 @@
 import { StyleSheet, Button, TouchableHighlight } from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
-import Login from '@/components/login'; 
+
 
 export default function TabTwoScreen() {
   return (
@@ -17,7 +17,7 @@ export default function TabTwoScreen() {
         </TouchableHighlight>
       </View>
       <EditScreenInfo path="app/(tabs)/two.tsx" />
-      <Login /> 
+ 
     </View>
   );
 }

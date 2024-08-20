@@ -9,7 +9,8 @@ const App: React.FC = () => {
       <Text style={styles.title}>holi</Text>
       <View style={styles.separator} lightColor="#eeee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/(tabs)/index.tsx" />
-     
+      {/* Descomentar la línea a continuación si quieres usar el botón */}
+      {/* <ButtonCustom title="Me gusta" onPress={handlePress} /> */}
     </View>
   );
 };
@@ -31,6 +32,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
 });
+
 
 
 export default App;
