@@ -4,7 +4,7 @@ import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
 //pantalla de biblioteca
-export default function TabTwoScreen() {
+export default function TabBibliotecaScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Biblioteca</Text>
@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
     flexDirection:"row",
     width: '100%',
     justifyContent:"space-around",
+    backgroundColor: 'none',
     },
   barra:{
     backgroundColor: "rgba(89, 17, 81,0.8)",
