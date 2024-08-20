@@ -6,11 +6,10 @@ import { StyleSheet } from 'react-native'; // Asegúrate de importar esto si usa
 const App: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <Text style={styles.title}>holi</Text>
+      <View style={styles.separator} lightColor="#eeee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/(tabs)/index.tsx" />
-      {/* Descomentar la línea a continuación si quieres usar el botón */}
-      {/* <ButtonCustom title="Me gusta" onPress={handlePress} /> */}
+     
     </View>
   );
 };
@@ -33,8 +32,6 @@ const styles = StyleSheet.create({
   },
 });
 
-<<<<<<< HEAD
+
 export default App;
-=======
-export default App;
->>>>>>> 129fb629f627918d6fad343b35763ec5fc2408de
+
