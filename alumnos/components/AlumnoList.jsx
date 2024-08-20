@@ -1,3 +1,5 @@
+//borrar
+
 import React, { useState } from "react";
 
 const AlumnoList = ({ alumnos, onEdit, onDelete }) => {
