@@ -17,8 +17,6 @@ export default function TabTwoScreen() {
           <Text style={styles.barra}>Me Gusta</Text>
         </TouchableHighlight>
       </View>
-      <EditScreenInfo path="app/(tabs)/two.tsx" />
- 
     </View>
   );
 }
