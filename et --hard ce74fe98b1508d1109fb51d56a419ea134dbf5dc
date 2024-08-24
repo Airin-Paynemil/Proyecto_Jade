@@ -1,0 +1,267 @@
+[33mcommit 5ff8d297aadf7849b1b3fbe2e05bc0f4c4170178[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Sat Aug 24 15:21:20 2024 -0300
+
+    babel config
+
+[33mcommit e5aae5734af38eae4b2cd83e0a0e87914ac593a2[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Sat Aug 24 15:14:09 2024 -0300
+
+    prueba de error
+
+[33mcommit e7636fcc6e6b3c39800c0f40acd41880b6f73ce0[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Sat Aug 24 14:57:22 2024 -0300
+
+    update package
+
+[33mcommit ce74fe98b1508d1109fb51d56a419ea134dbf5dc[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Fri Aug 23 13:52:13 2024 -0300
+
+    Efecto carrusel y arreglo packages
+
+[33mcommit 19c2b5efa1919a74fa7290e95875985bc600b393[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 18:45:07 2024 -0300
+
+    agregando comentarios
+
+[33mcommit 5044ac675c49e22876557e847db196cbbd0c2243[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 20 18:29:28 2024 -0300
+
+    nombrando boton para registrar usuario
+
+[33mcommit 2ce19f41167eb2976aa934fd46537106cef13ae7[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 18:26:30 2024 -0300
+
+    fonde de biblioteca
+
+[33mcommit 0a1bcf25edec8263fd573f07a9a75f47461f0621[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 17:37:08 2024 -0300
+
+    ya esta
+
+[33mcommit a98c59e89e0cf6110a04cb9aca961fdc4adaf55e[m
+Merge: 25f6077 c3f676f
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 17:33:24 2024 -0300
+
+    arreglado two.txs
+
+[33mcommit c3f676f90b9f908d929be5cb5f3ebdadc717598c[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 20 17:28:21 2024 -0300
+
+    generando pantalla de registro
+
+[33mcommit 25f60775bdbae0e371cce7448320e982325c280e[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 17:12:31 2024 -0300
+
+    ajustando botones
+
+[33mcommit 9916d2ab541ad0e991b336c229823d5c71ed7397[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 16:24:43 2024 -0300
+
+    pocos ajustes
+
+[33mcommit e3d1185afb39ed6aa2084ed507edbe7a63292c2b[m
+Merge: 2177d65 0277d0e
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 20 16:19:22 2024 -0300
+
+    corrigiendo y arreglando archivo 'two.tsx'
+
+[33mcommit 2177d657963bf0d0990b3d11f139eeab6725d705[m
+Merge: ea72331 129fb62
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 20 16:12:33 2024 -0300
+
+    acomodando packaje.json
+
+[33mcommit 0277d0e9b4a1933ee62c8dee3c6410f98acf5c96[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 16:01:39 2024 -0300
+
+    ahora se pueden presionar los botones
+
+[33mcommit 452a5915a8ae0ac4c0a8d270d0af1090d95b1a97[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Tue Aug 20 14:13:26 2024 -0300
+
+    creando la biblioteca
+
+[33mcommit ea7233105920e2531985355d2feee535aed76428[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Mon Aug 19 19:06:03 2024 -0300
+
+    correcciones de codigo en pantallas
+
+[33mcommit 2d3ef9a1b76ef8533f6c5b1d27510db1e5e0ee04[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Sun Aug 18 23:27:42 2024 -0300
+
+    ahori si me va el npm start :)
+
+[33mcommit cc82bd3df4880722aa6af6d00461297c15d927d8[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Sun Aug 18 21:31:23 2024 -0300
+
+    capio y pega en index y two
+
+[33mcommit 129fb629f627918d6fad343b35763ec5fc2408de[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Sun Aug 18 20:23:31 2024 -0300
+
+    arreglo en index
+
+[33mcommit cdfe29d164c726dd02c5ea8477c12e722c481136[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Sun Aug 18 20:01:58 2024 -0300
+
+    arreglo en package.json
+
+[33mcommit 2d14bbd5ce3fcf61b4660d0cdedd5630b13d37f3[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Sun Aug 18 19:21:39 2024 -0300
+
+    cambio en package.json
+
+[33mcommit 8124639072afad609ae117a658780bfe8d40d817[m
+Merge: 1a25b51 d593275
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Sun Aug 18 17:19:47 2024 -0300
+
+    pantalla inicio de sesion
+
+[33mcommit 1a25b51a203d264e1b718c41a2d7cfc0ea6ad0e1[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Sun Aug 18 17:16:09 2024 -0300
+
+    agregando componente login, pantalla de iniciar sesion
+
+[33mcommit 75b06d22f3c2373c3b97cfd6f3bda5f7c44361ec[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Sun Aug 18 01:22:35 2024 -0300
+
+    eliminando archivos login, user y register.jsx
+
+[33mcommit 8262b42726dd7b970783eeee16450e5aee3bf748[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Sat Aug 17 22:59:43 2024 -0300
+
+    agregando login,register y user.jsx en router
+
+[33mcommit 21a71c1da362664707113121ecf43ccf9f15659d[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Sat Aug 17 22:45:29 2024 -0300
+
+    agregando carpeta de router y login.jsx
+
+[33mcommit d593275e18bf4e13994f9b341bde93adef00e4e0[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Sat Aug 17 16:38:47 2024 -0300
+
+    elimine el carrusel porque no me andaba
+
+[33mcommit d504b1c4a76783a7608523a77d704c74da8fef92[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Sat Aug 17 16:16:34 2024 -0300
+
+    agregue unas imagenes y estoy modificando el carrusel
+
+[33mcommit dc75b2b4fa1b206bc78999e8b6baae64643c18a9[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Fri Aug 16 22:26:57 2024 -0300
+
+    agregando un carrusel de libros
+
+[33mcommit f5ab5d049bfe008cc0d994dd6827ea0819c51e7b[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Fri Aug 16 22:05:24 2024 -0300
+
+    modifique/arregue barra de busqueda
+
+[33mcommit 412ea0d921c87d4fcf7912d4ba07c4f58efd444c[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Fri Aug 16 10:31:36 2024 -0300
+
+    Configuro el nodemodules y tsconfig.json
+
+[33mcommit 7ffccdab0392ffe4ae6b0a1b23104d59c6bdb7cd[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Fri Aug 16 09:55:05 2024 -0300
+
+    Delete folder my-app, remplace layaout
+
+[33mcommit 07332ca293dbb985120407447d89acaec9380f93[m
+Merge: df995e6 a600677
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Thu Aug 15 19:13:25 2024 -0300
+
+    Merge branch 'main' of https://github.com/Airin-Paynemil/Proyecto_Jade
+
+[33mcommit df995e69391557c0decbe3984d3bb4948b0fb93b[m
+Merge: bdd1a1d ead4703
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Thu Aug 15 19:07:12 2024 -0300
+
+    nose ayuda
+
+[33mcommit a600677274c960135b965742e34f74ce5aa95dbb[m
+Author: Airin-Paynemil <airin.paynemil.epet20@gmail.com>
+Date:   Thu Aug 15 19:00:33 2024 -0300
+
+    cam
+
+[33mcommit bdd1a1d652d50c5750c347bd0d12620dc457e492[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Thu Aug 15 18:49:04 2024 -0300
+
+    cambios
+
+[33mcommit c507e978aa52f6a46ce39b3c4796dacec3f9239b[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Tue Aug 13 18:57:44 2024 -0300
+
+    cambios
+
+[33mcommit ead47031478e4919cd2bac9922e88521b51717d3[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Thu Aug 8 18:10:39 2024 -0300
+
+    firebb
+
+[33mcommit 056e9f0cc9cd2f0c3f1063eff0773b465298643c[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 6 22:24:44 2024 -0300
+
+    LO LOGRE
+
+[33mcommit b5e9558fcd89daaea6575f4848361379afe3061f[m
+Merge: 14e2165 6857441
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 6 22:20:31 2024 -0300
+
+    Merge branch 'main' of https://github.com/Airin-Paynemil/Proyecto_Jade
+
+[33mcommit 14e216524895cb33f3b18e8de5eb9d94425a5980[m
+Author: Airin-Paynemil <julietaantonela11@gmail.com>
+Date:   Tue Aug 6 21:34:07 2024 -0300
+
+    Created a new Expo app
+
+[33mcommit 685744156a9118509d96745b1da018f09372a3a7[m
+Author: Agustina01rosa <luisanarosa1405@gmail.com>
+Date:   Tue Aug 6 20:04:09 2024 -0300
+
+    agregando lo de widi
+
+[33mcommit debae9d448004b58e28118af9055935683e6852f[m
+Author: Agustina01ro
