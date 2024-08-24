@@ -11,7 +11,7 @@ const App: React.FC = () => {
     { id: '2', uri: require('@/assets/images/imagen2.jpg') },
     { id: '3', uri: require('@/assets/images/imagen3.jpg') },
   ];
-  
+  //cjsdjk
   const scrollX = React.useRef(new Animated.Value(0)).current;
 
   return (
