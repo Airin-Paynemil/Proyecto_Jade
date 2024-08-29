@@ -24,7 +24,7 @@ const App: React.FC = () => {
         style={[styles.carousel, { width: SLIDER_WIDTH }]}
         onScroll={Animated.event(
           [{ nativeEvent: { contentOffset: { x: scrollX } } }],
-          { useNativeDriver: true }
+          { useNativeDriver: false }
         )}
       >
         {images.map((image, index) => {
