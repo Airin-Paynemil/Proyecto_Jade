@@ -1,8 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
-import Registrar from '@/components/register';
+import EditScreenInfo from '@/app/src/componentes/EditScreenInfo';
+import { Text, View } from '@/app/src/componentes/Themed';
+import Registrar from '@/app/src/componentes/register';
 // src/index.js
 
 
