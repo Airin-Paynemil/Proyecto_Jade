@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./src/router/Login";  // Ajusta la ruta según tu estructura de carpetas
+import Login from "./src/pantallaLogin";  // Ajusta la ruta según tu estructura de carpetas
 
 function App() {
   return (

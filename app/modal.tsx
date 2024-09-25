@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+//import { StatusBar } from 'expo-status-bar';
 import { Platform, StyleSheet } from 'react-native';
 
 import EditScreenInfo from '@/app/src/componentes/EditScreenInfo';

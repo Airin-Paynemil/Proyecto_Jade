@@ -1,7 +1,7 @@
 import {createBrowserRouter, Navigate, RouterProvider} from "react-router-dom";
-import Login from "../app/(tabs)/login";
-import Register from "../app/(tabs)/register";
-import User from "../app/(tabs)/usuario";
+import Login from "./src/(taps)/pantallaLogin";
+import Register from "./src/(taps)/pantallaRegister";
+import User from "./src/(taps)/pantallaUsuario";
 import ErrorPage from "./error_Page";
 
 

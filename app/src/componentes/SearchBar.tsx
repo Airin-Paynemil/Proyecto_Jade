@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TextInput, StyleSheet, View } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
+//import { MaterialIcons } from '@expo/vector-icons';
 
 type SearchBarProps = {
   onSearch: (query: string) => void;
