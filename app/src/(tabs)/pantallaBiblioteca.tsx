@@ -1,7 +1,7 @@
 
 import { StyleSheet, TouchableHighlight} from 'react-native';
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
+import EditScreenInfo from '@/app/src/componentes/EditScreenInfo';
+import { Text, View } from '@/app/src/componentes/Themed';
 
 //pantalla de biblioteca
 export default function TabBibliotecaScreen() {

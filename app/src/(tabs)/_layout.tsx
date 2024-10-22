@@ -1,13 +1,13 @@
 import React from 'react';
-import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { Tabs } from 'expo-router';
+//import FontAwesome from '@expo/vector-icons/FontAwesome';
+//import { Tabs } from 'expo-router';
 import { Pressable, View, StyleSheet } from 'react-native';
 
-import { useColorScheme } from '@/components/useColorScheme';
-import { useClientOnlyValue } from '@/components/useClientOnlyValue';
+import { useColorScheme } from '@/app/src/componentes/useColorScheme';
+import { useClientOnlyValue } from '@/app/src/componentes/useClientOnlyValue';
 
 ;
-import SearchBar from '@/components/SearchBar'; // Importa el componente de barra de búsqueda
+import SearchBar from '@/app/src/componentes/SearchBar'; // Importa el componente de barra de búsqueda
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const iconColor = '#a987a8'; // Define el color deseado para los iconos

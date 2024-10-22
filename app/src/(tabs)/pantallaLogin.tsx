@@ -1,8 +1,7 @@
 import { StyleSheet } from 'react-native';
-
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
-import Login from '@/components/login';
+import EditScreenInfo from '../componentes/EditScreenInfo';
+import { Text, View } from '../componentes/Themed';
+import Login from '../componentes/login';
 // src/index.js
 
 
@@ -10,8 +9,7 @@ import Login from '@/components/login';
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-
-     <Login/>
+    <Login/>
     </View>
     
   );
